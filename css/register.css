@@ -1,0 +1,17 @@
+.form-container{
+    color: black;
+  margin-top: 7%;
+  width: 60%;
+  height: 100%;
+  padding: 40px;
+}
+
+.form-container input{
+    width: 20rem;
+}
+h1{
+    color: red;
+ }
+ img{
+     width: 30px;
+ }

@@ -1,0 +1,192 @@
+
+
+.img-iconshop{
+    width: 15px;
+    height: 20px;
+}
+content{
+    font-family: cursive;
+    color: red;
+    font-weight: bold;
+}
+nav{
+   width: 100%;
+    
+ box-shadow: 1px 1px 40px red;
+}
+#nave-webicons{
+    box-shadow: none;
+}
+
+
+  .profileAndplusIcon{
+    
+    box-shadow: 0px 0px 1px black;
+    display: flex;
+    margin-left: 15rem;
+  }
+  .profileAndplusIcon button{
+    transition: 1s all;
+    justify-content: none;
+    text-decoration: none;
+    border: none;
+    
+  }
+  .profileAndplusIcon button:hover{
+    transform: scale(1.1);
+    box-shadow:0px 1px 1px black;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .profileAndplusIcon{
+        display: none;
+    }
+   
+  
+  }
+
+  @media (max-width: 1019px) {
+    span{
+        display: none;
+    }
+    .profileAndplusIcon{
+        display: none;
+    }
+    .prev, .next {
+      display: none;
+    }
+   
+   
+    
+}
+
+.card{
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+  float: right;
+}
+
+.card img{
+  height: 100px;
+ width: 100px;
+} 
+
+.price{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  left: 0;
+  top: 0;
+  position:absolute;
+transform: rotate(-30deg);
+
+
+}
+
+
+.card .btn{
+  margin-top: 14px;
+  border:none;
+  padding: 10px;
+  width: 70%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #1AC15C;
+  cursor: pointer;
+  font-family: 'Cairo', sans-serif;
+  
+}
+.prouducts-all{
+  margin: 20px;
+  text-align: center;
+  margin-right: 15%;
+}
+.message{
+  cursor: pointer;
+  color: black;
+  background-color: #0ff503;
+ text-align: center;
+ width: 100%;
+}
+.message:hover{
+  color: white;
+  background-color: #000000;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.scroll-up-btn{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+
+.scroll-up-btn.show{
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.scroll-up-btn:hover{
+  filter: brightness(90%);
+}
+
+.scroll-home img{
+  position: fixed;
+  height: 35px;
+  width: 35px;
+  left: 30px;
+  bottom: 503px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-home img.shows{
+  bottom: 503px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.scroll-home:hover{
+  filter: brightness(90%);
+}
